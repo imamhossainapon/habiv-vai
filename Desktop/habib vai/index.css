@@ -1,0 +1,20 @@
+nav{ display: flex; justify-content: space-between;}
+*{margin: 0px;}
+
+.parent1{ background-image: url(80550705_981138582263679_6131598459704180736_n.jpg)
+    ;
+      background-size:contain ; text-align: center; background-repeat: no-repeat; height: 1140px ;width:2500px; display: flex;justify-content: center; align-items: center; color: aliceblue;}
+
+.goat{ background-image: url(istockphoto-1047950642-1024x1024.jpg);height: 1140px; width: auto; display: flex; justify-content: center; align-items: center; flex-direction: column; background-repeat: no-repeat; background-size: cover;  }
+
+@media screen and (max-width:576px) {
+    
+  .goat, .parent1{  background-size:cover; height:400px; width:400px; display: block;text-align: center; margin: 20px auto;}
+  footer{ justify-content: center;  background-color: blues; margin: 0px auto;
+background-image: url(292921981_1649461765431354_7117271337814646596_n.jpg); background-size: cover; height: 400px; width: 400px; display: block; text-align: center; margin: auto;}
+.goat{display: flex; flex-direction: column;justify-content: center; align-items: center;}
+
+}
+
+
+
